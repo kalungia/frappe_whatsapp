@@ -218,3 +218,5 @@ doc_events = {
         "on_update_after_submit": "frappe_whatsapp.utils.run_server_script_for_doc_event"
     }
 }
+
+website_route_rules = [{'from_route': '/chat/<path:app_path>', 'to_route': 'chat'},]
